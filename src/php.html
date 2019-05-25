@@ -11,7 +11,7 @@
     <title>PHP</title>
   </head>
   <body>
-      <script src="scripts/index.js"></script>
+      
       <header>
         <div class="cabecera">  <!-- INICIO CABECERA-->
       
@@ -55,17 +55,6 @@
         </ol>
       </nav>    
   </div>  
-
-  <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-  </script>
 
   <div class="cuerpo">  <!--INICIO CUERPO-->
     <div class="contenedorImgDetPal">
@@ -135,7 +124,17 @@
     </div>  <!-- FIN PIE-->
 
    </footer>  
-
+   <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+   <script src="scripts/index.js"></script>
   </body>
 
    
