@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <meta charset="utf-8" lang="es" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>WikiFrontEnd</title>
+  </head>
+  <body>
+      <script src="scripts/index.js"></script>
+    <div class="cabecera">  <!-- INICIO CABECERA-->
+    
+      <div class="iconPHome"><a href="./index.html"><i class="fas fa-home"></i></a></div>
+      <div class="membrete-nombre">
+          
+         <!-- <h1> <i class="fas fa-university"></i>Enciclopedia del Front-End</h1>-->
+         <h1> <strong>Enciclopedia del Front-End</strong></h1>
+         
+      </div> 
+      <div class="iconPDoor"><a href="./index.html"><i class="fas fa-door-open"></i></a></div>
+     
+    </div>  <!-- FIN CABECERA-->
+    
+    <div class="menu">
+      
+      <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars">Categorías:</i>
+            </a>
+          <a href="./bundlers.html" class="active">Modulos Blunders</a>
+          <a href="./preprocesadores.html">Preprocesadores</a>
+          <a href="./frontend.html">Lenguaje FrontEnd</a>
+
+      </div>
+    </div>
+
+  <div class="menuMigas">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="./preprocesadores.html">/ Preprocesadores </a></li>
+          <li class="breadcrumb-item">/ <strong>SASS </strong></li>
+        </ol>
+      </nav>    
+  </div>  
+
+  <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+  </script>
+
+  <div class="cuerpo">  <!--INICIO CUPERPO-->
+    <div class="contenedorImgDetPal">
+      <!--<iframe src="https://www.youtube.com/embed/8abt7kqHWoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+      <div class="imgDetPal">
+          <img  src="img/sass400700pro.jpg"
+          alt="imagen del curso de formacion de webpack"
+          class="imgPal" 
+          /> 
+          <div class="textoEncimaAbajo">
+          <h1 class="rosa"> <p><strong><em></em></strong></p>
+            <p><strong>Curso completo desde cero</strong></p></h1>
+          </div>
+      </div>
+    </div>
+    <section class="tituloSeccion">
+      <h1 >¿Qué es Sass?</h1>
+      <img class="logoDetalle"
+        src="img/logo03.png"
+        alt="Logotipo o identificativo de webpack"
+      >
+      <p> <abbr>SASS</abbr> es un metalenguaje para escribir hojas de estilo que nos ayudará a generar ficheros <abbr>CSS</abbr> más optimizados, incorporando mayor contenido semántico a nuestras hojas de estilo y permitiendo utilizar funcionalidades que normalmente encontraríamos en lenguajes de programación tradicionales, como el uso de variables, creación de funciones, estructuración de código en varios ficheros, etc.</p>
+      <p> Su sintaxis es muy parecida a la de <abbr>CSS</abbr>, con la unica diferencia de que se pueden anidar reglas. Entre los elementos principales podemos encontrar:</p>
+      <ul>
+        <li>Variables.</li>
+        <li>Anidamiento.</li>
+        <li>Parciales.</li>
+        <li>Importaciones.</li>
+        <li>Mixins.</li>
+        <li>Extend.</li>
+        <li>Operadores.</li>
+      </ul>
+      <p>Si conoce <abbr>CSS</abbr>, puede abordar su proceso de aprendizaje desde cualquier manual como el siguiente:</p>
+      <div contenedor class="contenedorImgDetMedia">
+        <img class="imgDeteMedia"
+        src="img/manualsass01.jpg"
+        alt="Logotipo o identificativo de webpack"
+        >
+      </div>
+  </div>  <!-- FIN CUERPO-->
+
+  <div class="pie">  <!--INICIO PIE-->
+
+      <p> <strong>Alumno: Fco. Javier Morgado Gordillo. </strong></p>
+      <p><strong> Asignatura:M4.257- <abbr>HTML</abbr> y <abbr>CSS</abbr> </strong></p>
+
+      <nav class="navIco">
+          <ul>
+              <li><span style="font-size: 30px;">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                  </span>
+              </li>
+              <li ><span style="font-size: 30px;">
+                <a  href="https://twitter.com/"> <i class="fab fa-twitter-square"></i></a>
+                  </span>
+              </li>
+              <li><span style="font-size: 30px;">
+                <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
+                  </span>
+              </li>
+              <li ><span style="font-size: 30px;">
+                <a href="https://www.youtube.com"> <i class="fab fa-youtube-square"></i> </a>
+                  </span>
+              </li>            
+          </ul>
+     </nav>
+
+  </div>  <!-- FIN PIE-->
+
+  </body>
+
+</html>

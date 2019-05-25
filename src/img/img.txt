@@ -1,0 +1,5 @@
+<img src="img/yacht_race@fallback.jpg"
+    srcset="webpackCurso200300.jpg 768w,
+      webpackCurso01.jpg 1280w"
+    sizes="90vw"
+    alt="A very exciting yacht race.">

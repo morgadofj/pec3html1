@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <meta charset="utf-8" lang="es" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>WikiFrontEnd</title>
+  </head>
+  <body>
+    <script src="scripts/index.js"></script>
+    <header>
+      <div class="cabecera">  <!-- INICIO CABECERA-->
+    
+      <img  src="img/logoFE11.svg"
+      alt="logo WikiFrontEnd"
+      class="logo" 
+      />
+
+        <div class="iconPHome"><a href="./index.html"><i class="fas fa-home"></i></a></div>
+        <div class="membrete-nombre">
+            
+          <!-- <h1> <i class="fas fa-university"></i>Enciclopedia del Front-End</h1>-->
+          <h1> <strong>Enciclopedia del Front-End</strong></h1>
+          
+        </div> 
+        <div class="iconPDoor"><a href="./index.html"><i class="fas fa-door-open"></i></a></div>
+
+      </div>  <!-- FIN CABECERA-->
+
+      
+      <div class="menu">
+        
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">Categorías:</i>
+              </a>
+            <a href="./bundlers.html" class="active">Modulos Blunders</a>
+            <a href="./preprocesadores.html">Preprocesadores</a>
+            <a href="./frontend.html">Lenguaje FrontEnd</a>
+
+        </div>
+      </div>
+    </header>  
+    
+    <div class="menuMigas">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="./preprocesadores.html">/ Preprocesadores </a></li>
+            <li class="breadcrumb-item">/ <strong>Babel</strong> </li>
+          </ol>
+        </nav>    
+    </div>  
+
+  <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+  </script>
+  
+  <div class="cuerpo">  <!--INICIO CUPERPO-->
+
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/LtEP_-3a5CY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <div class="contenedorImgDetPal">
+      <!--<iframe src="https://www.youtube.com/embed/8abt7kqHWoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+      <div class="imgDetPal">
+          <img  src="img/babel3.png"
+          alt="imagen del curso de formacion de webpack"
+          class="imgDet" 
+          /> 
+          <div class="textoEncimaAbajo">
+          <h1> <p><strong><em></em></strong></p>
+            <p><strong></strong></p>
+            <p></p>
+          </h1>
+          </div>
+    </div>
+    </div>
+    <section class="tituloSeccion">
+      <h1 >¿Qué es Babel?</h1>
+      <img class="logoDetalle"
+      src="img/logobabel2.png"
+      alt="Logotipo o identificativo de webpack"
+    >
+      <p> Es un transpilador entre versiones de ECMAScript (la especificación de JavaScript). Nos permite escribir <abbr>ES6</abbr> y automáticamente hará una conversión a ES5 para que node.js pueda ejecutarlo como si fuera el mismo código (node no soporta de forma nativa los módulos <abbr>ES6</abbr>).</p>
+
+      <h1>Usar Babel junto a Webpack</h1>
+      <p>Si usan Webpack para hacer el build de sus archivos de Frontend pueden usarlo junto a Babel muy fácilmente, simplemente descargando un loader de Webpack y configurándolo. </p>
+
+      <p>Babel es bastante simple, la configuración más básica es muy fácil de usar y no cuesta nada iniciar un proyecto, simplemente copiándolo de otro proyecto. Usar Babel nos va a ayudar a poder utilizar la última versión del estándar e incluso algunas funciones experimentales, o que no son parte del estándar (ni siquiera propuestas) pero nos ayudan a trabajar más fácilmente.</p>  
+      <p>En resumen, las siguiente figura representa perfectamente el objetivo de babel de una manera muy esquematica, pero clara y concisa:</p>
+
+      <div contenedor class="contenedorImgDetMedia">
+        <img class="imgDeteMedia"
+        src="img/BabelJS.png"
+        alt="Logotipo o identificativo de webpack"
+        >
+      </div>
+
+  </div>  <!-- FIN CUERPO-->
+  <footer>
+    <div class="pie">  <!--INICIO PIE-->
+      <img  src="img/wiki2.svg"
+      alt="logo WikiFrontEnd"
+      class="logopie" 
+      />
+        <p> <strong>Enciclopedia del Front-End </strong></p>
+        <p><strong> Asignatura:M4.257- <abbr>HTML</abbr> y <abbr>CSS</abbr> </strong></p>
+
+
+        <nav class="navIco">
+            <ul>
+                <li><span style="font-size: 30px;">
+                  <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    </span>
+                </li>
+                <li ><span style="font-size: 30px;">
+                  <a  href="https://twitter.com/"> <i class="fab fa-twitter-square"></i></a>
+                    </span>
+                </li>
+                <li><span style="font-size: 30px;">
+                  <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
+                    </span>
+                </li>
+                <li ><span style="font-size: 30px;">
+                  <a href="https://www.youtube.com"> <i class="fab fa-youtube-square"></i> </a>
+                    </span>
+                </li>            
+            </ul>
+      </nav>
+
+
+    </div>  <!-- FIN PIE-->
+
+   </footer>  
+
+  </body>
+
+   
+
+</html>

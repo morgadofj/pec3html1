@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <meta charset="utf-8" lang="es" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>WikiFrontEnd</title>
+  </head>
+  <body>
+    <script src="scripts/index.js"></script>
+    <header>
+      <div class="cabecera">  <!-- INICIO CABECERA-->
+    
+      <img  src="img/logoFE11.svg"
+      alt="logo WikiFrontEnd"
+      class="logo" 
+      />
+
+        <div class="iconPHome"><a href="./index.html"><i class="fas fa-home"></i></a></div>
+        <div class="membrete-nombre">
+            
+          <!-- <h1> <i class="fas fa-university"></i>Enciclopedia del Front-End</h1>-->
+          <h1> <strong>Enciclopedia del Front-End</strong></h1>
+          
+        </div> 
+        <div class="iconPDoor"><a href="./index.html"><i class="fas fa-door-open"></i></a></div>
+
+      </div>  <!-- FIN CABECERA-->
+
+      
+      <div class="menu">
+        
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">Categorías:</i>
+              </a>
+            <a href="./bundlers.html" class="active">Modulos Blunders</a>
+            <a href="./preprocesadores.html">Preprocesadores</a>
+            <a href="./frontend.html">Lenguaje FrontEnd</a>
+
+        </div>
+      </div>
+    </header>  
+    <div class="menuMigas">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+              <li class="breadcrumb-item"><a href="./bundlers.html">/ Modulos Bundlers </a></li>
+              <li class="breadcrumb-item">/ <strong>Webpack</strong> </li>
+          </ol>
+        </nav>    
+    </div>  
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+    
+  <div class="cuerpo">  <!--INICIO CUPERPO-->
+    <div class="contenedorImgDetPal">
+      <!--<iframe src="https://www.youtube.com/embed/8abt7kqHWoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+       <div class="imgDetPal">
+         <!--
+          <img  src="img/webpackCurso01.jpg"
+          alt="imagen del curso de formacion de webpack"
+          class="imgPal" 
+          /> 
+          -->
+          
+          <img src="img/webpackCurso01.jpg"
+          srcset="img/webpackCurso200400pro.jpg 800,
+                  img/webpackCurso01.jpg 1280w"
+          alt="imagen curso webpack"
+          class="imgPal" 
+          >
+        
+          <div class="textoEncimaAbajo">
+          <h1> <p><strong><em>Webpak</em></strong></p>
+            <p><strong>Curso completo desde cero</strong></p></h1>
+          </div>
+       </div>
+    </div>
+    <section class="tituloSeccion">
+      <h1 >¿Qué es Webpack?</h1>
+      <img class="logoDetalle"
+        src="img/webpack100100.png"
+        alt="Logotipo o identificativo de webpack"
+      >
+      <p>Webpack es un empaquetador de módulos, es decir, te permite generar un achivo único con todos aquellos módulos que necesita tu aplicación para funcionar. Para hacerte una idea, te permite meter todos tus archivos javascript en un único archivo, llamémoslo bundle.js.</p>
+      <p>Como definición inicial basta, pero Webpack va mas allá y se ha convertido en una herramienta de build muy versátil. Entre otras cosas, destaca que:</p>
+      <ul>
+          <li> Puedes generar solo aquellos fragmentos de <abbr>JS</abbr> que realmente necesita cada página (haciendo más rápida su carga).</li>
+          <li> Tiene varios loaders para importar y empaquetar también otros recursos (<abbr>CSS</abbr>, templates, …) así como otros lenguajes (<abbr>ES6</abbr> con Babel, TypeScript, <abbr>Sass</abbr>, etc).</li>
+      </ul>
+      <p>Su feedback, es muy similar a cualquiera de las herramientas de este tipo en modo consola. He aquí un ejemplo del mismo:</p>
+      <div contenedor class="contenedorImgDetMedia">
+        <img class="imgDeteMedia"
+        src="img/webpackcod01.jpg"
+        alt="Logotipo o identificativo de webpack"
+        >
+      </div>
+    </section>
+    
+  
+  </div>  <!-- FIN CUERPO-->
+
+  <footer>
+    <div class="pie">  <!--INICIO PIE-->
+      <img  src="img/wiki2.svg"
+      alt="logo WikiFrontEnd"
+      class="logopie" 
+      />
+        <p> <strong>Enciclopedia del Front-End </strong></p>
+        <p><strong> Asignatura:M4.257- <abbr>HTML</abbr> y <abbr>CSS</abbr> </strong></p>
+
+
+        <nav class="navIco">
+            <ul>
+                <li><span style="font-size: 30px;">
+                  <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    </span>
+                </li>
+                <li ><span style="font-size: 30px;">
+                  <a  href="https://twitter.com/"> <i class="fab fa-twitter-square"></i></a>
+                    </span>
+                </li>
+                <li><span style="font-size: 30px;">
+                  <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
+                    </span>
+                </li>
+                <li ><span style="font-size: 30px;">
+                  <a href="https://www.youtube.com"> <i class="fab fa-youtube-square"></i> </a>
+                    </span>
+                </li>            
+            </ul>
+      </nav>
+
+
+    </div>  <!-- FIN PIE-->
+
+   </footer>  
+
+  </body>
+
+   
+
+</html>
